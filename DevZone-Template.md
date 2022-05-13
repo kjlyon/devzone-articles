@@ -7,10 +7,11 @@ this + that = #winning
 
 [squarebrackets]  {curlyBrakcets} 
 
+Under_score or this is an * asterisk 
+
 - \\ backslash itself
 - \` backtick
-- \* asterisk
-- \_ underscore
+
 
 ## break
 
