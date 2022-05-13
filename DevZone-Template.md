@@ -3,6 +3,23 @@
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
 
+## Table Of Contents
+- [Headers](#headers-h2)
+- [General text styling](#general-text-styling)
+    - [Links](#links)
+    - [Block Quotes](#block-quotes)
+    - [CSS Attribution - Requested](#css-attribution---requested)
+    - [Footnotes](#footnotes)
+- [Examples of math in .md](#examples-of-math-in-md)
+- [Code on your page](#code-on-your-page)
+- [Creating Ordered Lists](#creating-an-ordered-list)
+- [Creating Unordered Lists](#creating-unordered-lists)
+- [Tables](#tables)
+- [Images](#images)
+- [Videos](#videos)
+
+
+
 ## Headers (H2)
 Make sure you don't use the single # for any headers. Only the title of your article should be an H1. This isn't just a visual thing, this will impact your SEO score in google.
 Always start with the ##.
@@ -48,6 +65,37 @@ Subscript example: X^2^
 
 :bulb: 🖥️ :d
 
+### Special Characters
+The following are special characters in markdown. To use them, you'll need to preceed them with a backslash.
+
+- \\ backslash itself
+- \` backtick
+- \* asterisk
+- \_ underscore
+- \{ \} curly braces
+- \[ \] square brackets
+- \( \) parentheses
+- \# hash mark
+- \+ plus sign
+- \- minus sign (hyphen)
+- \. dot
+- \! exclamation mark
+
+```
+\\ backslash itself
+\` backtick
+\* asterisk
+\_ underscore
+\{ \} curly braces
+\[ \] square brackets
+\( \) parentheses
+\# hash mark
+\+ plus sign
+\- minus sign (hyphen)
+\. dot
+\! exclamation mark
+```
+
 <br><br>
 ***
 ### Links
@@ -61,6 +109,10 @@ mailto:
 (note for spam reasons, we discourage use of email links)
 [example@gitlab.com](mailto:example@gitlab.com)
 
+Anchor Links: link to another part of the same article [Table of Contents](#table-of-contents).
+```
+[Table of Contents](#table-of-contents)
+```
 
 <br><br>
 ***
@@ -404,3 +456,16 @@ Can we embed code from github, here is a gitlab test.
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
+
+<br><br>
+
+## FAQ:
+
+__Q: My .raw file isn't updating, thus AEM isn't pulling my most recent content.__
+
+A: Note, AEM pulls from github's raw file. The raw file is cached and only updaed every 3 minutes. Check if the .raw file shows the updates you're expecting. 
+
+__Q: AEM isn't pulling any content and not giving any errors.__
+
+A: Try adding some text in the body of AEM, then having AEM pull your content from GitHub. There's an open ticket for this now with IT. It should be resolved though (as of 5/12/22)
+A: Watchout for special characters. Not just the ones listed in the [special character section](#special-characters), but also, single and double quotes. GitHub is leniant about styled quotes like: `“Hello”`, AEM will not accept those. They must be straight double quotes: `"` . Similarly, single quotes `‘thank you’` must use staight single quote: `'`.
