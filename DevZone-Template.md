@@ -9,8 +9,10 @@ this + that = #winning
 
 Under_score or this is an * asterisk 
 
-- \\ backslash itself
-- \` backtick
+`this is a backtick. 
+
+This\is a backslash
+
 
 
 ## break
