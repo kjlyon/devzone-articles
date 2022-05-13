@@ -2,14 +2,17 @@
 The following are special characters in markdown. To use them, you'll need to preceed them with a backslash.
 
 this is exciting! I-don't know/or (do I).
+
 this + that = #winning
+
+[squarebrackets]  {curlyBrakcets} 
 
 - \\ backslash itself
 - \` backtick
 - \* asterisk
 - \_ underscore
-- \{ \} curly braces
-- \[ \] square brackets
+
+## break
 
 
 ```
