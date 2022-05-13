@@ -130,7 +130,7 @@ This doesn't work with our template. We have requested some code updates so that
 
 > We're living the future so
 > the present is our past.
-> 
+
 <br><br>
 ***
 ### CSS Attribution - Requested
