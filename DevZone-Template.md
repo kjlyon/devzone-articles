@@ -6,17 +6,21 @@ Note: when loading github url into your page, it may take a number of tries to g
 ## Table Of Contents
 - [Headers](#headers-h2)
 - [General text styling](#general-text-styling)
+    - [Special Characters](#special-characters)
     - [Links](#links)
     - [Block Quotes](#block-quotes)
     - [CSS Attribution - Requested](#css-attribution---requested)
     - [Footnotes](#footnotes)
 - [Examples of math in .md](#examples-of-math-in-md)
 - [Code on your page](#code-on-your-page)
-- [Creating Ordered Lists](#creating-an-ordered-list)
-- [Creating Unordered Lists](#creating-unordered-lists)
+- [Lists](#lists)
+    - [Ordered list](#creating-an-ordered-list)
+    - [Unordered list](#creating-unordered-lists)
 - [Tables](#tables)
+- [Collapsible sections](#a-collapsible-section-with-markdown)
 - [Images](#images)
 - [Videos](#videos)
+- [FAQ](#faq)
 
 
 
