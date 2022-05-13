@@ -473,4 +473,4 @@ __Q: AEM isn't pulling any content and not giving any errors.__
 
 A: Try adding some text in the body of AEM, then having AEM pull your content from GitHub. There's an open ticket for this now with IT. It should be resolved though (as of 5/12/22)
 
-A: Watchout for special characters. Not just the ones listed in the [special character section](#special-characters), but also, single and double quotes. GitHub is leniant about styled quotes like: `“Hello”`, AEM will not accept those. They must be straight double quotes: `"` . Similarly, single quotes `‘thank you’` must use staight single quote: `'`.
+A: Watchout for special characters. Not just the ones listed in the [special character section](#special-characters), but also, single and double quotes. GitHub is leniant about styled quotes like: `“Hello”`, AEM will not accept those unless they're in a code block or snippet. They must be straight double quotes: `"` . Similarly, single quotes `‘thank you’` must use staight single quote: `'`.
