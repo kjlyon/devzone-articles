@@ -166,13 +166,14 @@ Then from within footnote, link back to it:<b id="c2">1</b>
 
 Test footnote content here.(#a1)
 
-```
+```markdown
 New footnotes <sup id="a1">[1](#c2)</sup>
 
 Then from within footnote, link back to it:<b id="c2">1</b> 
 
 
-Test footnote content here.(#a1)```
+Test footnote content here.(#a1)
+```
 
 <br><br>
 ***
