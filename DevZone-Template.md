@@ -4,18 +4,18 @@ Welcome to the full test template for the github md import feature of AEM. This 
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
 
 ## Table Of Contents
-- [Headers](#headers-h2)
+- [Headers](#headersh2)
 - [General text styling](#generaltextstyling)
     - [Special Characters](#specialcharacters)
     - [Links](#links)
     - [Block Quotes](#blockquotes)
-    - [CSS Attribution - Requested](#cssattribution-requested)
+    - [CSS Attribution - Requested](#cssattributionrequested)
     - [Footnotes](#footnotes)
 - [Examples of math in .md](#examplesofmathinmd)
 - [Code on your page](#codeonyourpage)
 - [Lists](#lists)
     - [Ordered list](#creatinganorderedlist)
-    - [Unordered list](#creatingonorderedlists)
+    - [Unordered list](#creatingunorderedlists)
 - [Tables](#tables)
 - [Collapsible sections](#acollapsiblesectionwithmarkdown)
 - [Images](#images)
@@ -141,6 +141,10 @@ We have requested that IT add this feature so we can call certain css properties
 {:.greyHighlight} 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+```
+{:.greyHighlight} 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+```
 
 <br><br>
 ***
@@ -156,11 +160,20 @@ Here's a sentence with a footnote. [^2]
 [^2]: This is another footnote to go with the first.
 
 
-New footnotes <sup id="a1">[1](#c2)</sup>Then from within footnote, link back to it:<b id="c2">1</b> Test footnote content here.(#a1)
+New footnotes <sup id="a1">[1](#c2)</sup>
+
+Then from within footnote, link back to it:<b id="c2">1</b> 
+
+
+Test footnote content here.(#a1)
 
 ```
-New footnotes <sup id="a1">[1](#c2)</sup>Then from within footnote, link back to it:<b id="c2">1</b> Test footnote content here.(#a1)
-```
+New footnotes <sup id="a1">[1](#c2)</sup>
+
+Then from within footnote, link back to it:<b id="c2">1</b> 
+
+
+Test footnote content here.(#a1)```
 
 <br><br>
 ***
