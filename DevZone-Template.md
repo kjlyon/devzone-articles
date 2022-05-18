@@ -161,18 +161,17 @@ Here's a sentence with a footnote. [^2]
 
 New footnotes <sup id="a1">[1](#c2)</sup>
 
-Then from within footnote, link back to it:<b id="c2">1</b> 
+<b id="c2">1</b>Then from within footnote, link back to it
 
+Why do I need this line? Test footnote content here.(#a1)
 
-Test footnote content here.(#a1)
 
 ```markdown
 New footnotes <sup id="a1">[1](#c2)</sup>
 
-Then from within footnote, link back to it:<b id="c2">1</b> 
+<b id="c2">1</b>Then from within footnote, link back to it
 
-
-Test footnote content here.(#a1)
+Why do I need this line? Test footnote content here.(#a1)
 ```
 
 <br><br>
