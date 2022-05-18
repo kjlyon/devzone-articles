@@ -5,19 +5,19 @@ Note: when loading github url into your page, it may take a number of tries to g
 
 ## Table Of Contents
 - [Headers](#headers-h2)
-- [General text styling](#general-text-styling)
-    - [Special Characters](#special-characters)
+- [General text styling](#generaltextstyling)
+    - [Special Characters](#specialcharacters)
     - [Links](#links)
-    - [Block Quotes](#block-quotes)
-    - [CSS Attribution - Requested](#css-attribution---requested)
+    - [Block Quotes](#blockquotes)
+    - [CSS Attribution - Requested](#cssattribution-requested)
     - [Footnotes](#footnotes)
-- [Examples of math in .md](#examples-of-math-in-md)
-- [Code on your page](#code-on-your-page)
+- [Examples of math in .md](#examplesofmathinmd)
+- [Code on your page](#codeonyourpage)
 - [Lists](#lists)
-    - [Ordered list](#creating-an-ordered-list)
-    - [Unordered list](#creating-unordered-lists)
+    - [Ordered list](#creatinganorderedlist)
+    - [Unordered list](#creatingonorderedlists)
 - [Tables](#tables)
-- [Collapsible sections](#a-collapsible-section-with-markdown)
+- [Collapsible sections](#acollapsiblesectionwithmarkdown)
 - [Images](#images)
 - [Videos](#videos)
 - [FAQ](#faq)
@@ -138,7 +138,7 @@ This doesn't work with our template. We have requested some code updates so that
 Another Item we are exploring is the ability to call the css that is used on the site. This isn't working yet. I will update once we have the functionality in place. There are two options IT is exploring. 
 We have requested that IT add this feature so we can call certain css properties into markdown.
 
-{: .greyHighlight}
+{:.greyHighlight} 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
@@ -154,6 +154,13 @@ Here's a sentence with a footnote. [^1]
 Here's a sentence with a footnote. [^2]  
   
 [^2]: This is another footnote to go with the first.
+
+
+New footnotes <sup id="a1">[1](#c2)</sup>Then from within footnote, link back to it:<b id="c2">1</b> Test footnote content here.(#a1)
+
+```
+New footnotes <sup id="a1">[1](#c2)</sup>Then from within footnote, link back to it:<b id="c2">1</b> Test footnote content here.(#a1)
+```
 
 <br><br>
 ***
