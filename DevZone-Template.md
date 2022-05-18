@@ -9,7 +9,6 @@ Note: when loading github url into your page, it may take a number of tries to g
     - [Special Characters](#specialcharacters)
     - [Links](#links)
     - [Block Quotes](#blockquotes)
-    - [CSS Attribution - Requested](#cssattributionrequested)
     - [Footnotes](#footnotes)
 - [Examples of math in .md](#examplesofmathinmd)
 - [Code on your page](#codeonyourpage)
