@@ -137,14 +137,14 @@ This doesn't work with our template. We have requested some code updates so that
 ### CSS Attribution - Requested
 
 Another Item we are exploring is the ability to call the css that is used on the site. This isn't working yet. I will update once we have the functionality in place. There are two options IT is exploring. 
-We have requested that IT add this feature so we can call certain css properties into markdown.
+We have requested that IT add this feature so we can call certain css properties into markdown. 
 
 {:.greyHighlight} 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+As of 5/20/22, IT says this feature will come in the next few releases.
 
 ```
 {:.greyHighlight} 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+As of 5/20/22, IT says this feature will come in the next few releases.
 ```
 
 <br><br>
@@ -175,6 +175,23 @@ New footnotes <sup id="a1">[1](#c2)</sup>
 
 Why do I need this line? Test footnote content here.(#a1)
 ```
+
+**Another Footnote Way**
+
+Here's a sentence with a footnote1. <sup id="a1">[[1]](#f1)</sup>
+Here's a sentence with a footnote2. <sup id="a2">[[2]](#f2)</sup>
+
+<sup id="f1">[[1]](#a1)</sup> This is the footnote1.
+<sup id="f2">[[2]](#a2)</sup> This is another footnote to go with the first.
+
+```
+Here's a sentence with a footnote1. <sup id="a1">[[1]](#f1)</sup>
+Here's a sentence with a footnote2. <sup id="a2">[[2]](#f2)</sup>
+
+<sup id="f1">[[1]](#a1)</sup> This is the footnote1.
+<sup id="f2">[[2]](#a2)</sup> This is another footnote to go with the first.
+```
+
 
 <br><br>
 ***
